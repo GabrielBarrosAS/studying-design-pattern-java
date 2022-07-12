@@ -1,9 +1,9 @@
 package com.example.designpatterns.state.usingPattern;
 
 public interface PaymentStatus {
-    public Status approvePayment();
+    public PaymentStatus approvePayment();
 
-    public Status refusePayment();
+    public PaymentStatus refusePayment();
 
-    public Status sendProducts();
+    public PaymentStatus sendProducts();
 }
